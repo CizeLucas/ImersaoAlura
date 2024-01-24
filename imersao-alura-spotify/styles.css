@@ -10,6 +10,11 @@ body{
     left: 0;
     padding: 12px;
     width: 300px;
+    color: #b3b3b3;
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .sidebar .sidebar_navigation {
@@ -37,9 +42,6 @@ body{
 .sidebar .sidebar_navigation ul li a{
     color: #b3b3b3;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
 }
 
 .sidebar .sidebar_navigation ul li .fa {
@@ -48,4 +50,99 @@ body{
 
 .sidebar .sidebar_navigation .logo img {
     width: 80px;
+}
+
+.sidebar .library {
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 12px;
+    background-color: #121212;
+
+    height: 100%;
+    color: #b3b3b3;
+}
+
+.sidebar .library .library_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.sidebar .section-playlist {
+
+}
+
+.sidebar .section-playlist .section-playlist_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.subtitle {
+    margin: 16px 0px;
+    font-weight: 600;
+}
+
+.sidebar .section-playlist .section-playlist_content .section-playlist_button{
+    padding: 12px 16px;
+    border-radius: 18px;
+    border-style: none;
+    width: fit-content;
+}
+
+.sidebar .library .section-playlist {
+    background-color: #202020;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 16px 0px;
+}
+
+.sidebar .library .library_content .library_button {
+    text-decoration: none;
+    color: #b3b3b3;
+    
+}
+
+.sidebar .library .library_button {
+
+}
+
+.sidebar .library .library_content .add_library {
+    color: #b3b3b3;
+}
+
+.sidebar .library .cookies {
+    position: absolute;
+    bottom: 150px;
+    padding: 12px;
+}
+
+.sidebar .library .cookies a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.sidebar .library .languages {
+    position: absolute;
+    bottom: 100px;
+}
+
+.sidebar .library .languages .languages_button {
+    background-color: black;
+    padding: 12px;
+    border-radius: 18px;
+    border-style: groove;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 16px;
+
 }
