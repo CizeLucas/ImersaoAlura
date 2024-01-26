@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<!-- Command for starting the JSON Server (for API functionality):
+    json-server --watch C:\dev\Alura\imersao-alura-spotify\api-artists\artists.json --port 3000   -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +12,7 @@
     <link href="./src/styles/vars.css" rel="stylesheet">
     <link href="./src/styles/sidebar-footer.css" rel="stylesheet">
     <link href="./src/styles/main-content.css" rel="stylesheet">
+    <link href="./src/styles/media-queries.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -242,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="result-artist" class="hidden">
                     <div class="grid-container">
                         <div class="artist-card" id="">
@@ -252,8 +256,7 @@
                                     <span class="fa fa-solid fa-play"></span>
                                 </div>
                             </div>
-                            <div class="card-text">
-                                <a title="Foo Fighters" class="vst" href=""></a>
+                            <div class="card-text">              
                                 <span class="artist-name" id="artist-name"></span>
                                 <span class="artist-categorie">Artista</span>
                                 </a>
@@ -281,6 +284,6 @@
             </div>
             </footer>
 
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
