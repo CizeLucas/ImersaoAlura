@@ -86,6 +86,50 @@
     color: var(--bg-icon);
 }
 
-.header_navigation .header_login .login {
-    
+
+
+.main-container .main_content {
+    background-color: rgba(50, 50, 50, 0.615);
+    margin-left: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 16px;
+    padding-top: 32px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.main-container .main_content .greetings_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.greetings_div h1 {
+    font-size: 32px;
+}
+
+.greetings_div h2 {
+    font-size: 20px;
+}
+
+.main-container .main_content .content_div {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.main_content .content_div div {
+    background-color: gray;
+    height: 7rem;
+    width: 7rem;
+    color: white;
+    padding: 14px;
 }
