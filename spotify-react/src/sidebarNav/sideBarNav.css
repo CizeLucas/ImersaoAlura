@@ -21,7 +21,7 @@
     padding: 16px 0px 0px 0px;
 }
 
-.sidebar .sidebar_navigation ul {
+.sidebar_navigation ul {
     margin-top: 20px;
     padding: 0px 20px 10px 0px;
 }
@@ -43,4 +43,8 @@
 
 .sidebar .sidebar_navigation .logo img {
     width: 80px;
+}
+
+a, button {
+    cursor: pointer;
 }

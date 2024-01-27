@@ -1,15 +1,16 @@
 import './App.css';
+
+import SideBarNav from './sidebarNav/sideBarNav.js';
 import Header from './Header/Header.js';
-import sideBarNav from './sidebarNav/sideBarNav.js';
 
 function App() {
   return (
-    <sideBarNav>
-      <Header/>
-    </sideBarNav>
+    <main>
+      <SideBarNav/>
 
-    
+      <Header/>
+    </main>
   );
-}
+};
 
 export default App;

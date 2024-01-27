@@ -8,7 +8,7 @@ const sideBarNav = () => {
         <div className="sidebar">
             <nav className="sidebar_navigation">
                 <div>
-                    <a  href="">
+                    <a>
                         <div className="logo">
                             <img src={spotifyLogo} alt="Spotify's logo"/>
                         </div>
@@ -17,13 +17,13 @@ const sideBarNav = () => {
 
                 <ul>
                     <li>
-                        <a href="">
+                        <a>
                             <span className="fa fa-home"></span>
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a>
                             <span className="fa fa-search"></span>
                             <span>Buscar</span>
                         </a>
@@ -33,11 +33,11 @@ const sideBarNav = () => {
 
             <div className="library">
                 <div className="library_content">
-                    <button href="" className="library_button">
+                    <button  className="library_button">
                         <span className="fa fas fa-book"></span>
                         <span>Sua Biblioteca</span>
                     </button>
-                    <a href="" className="add_library">
+                    <a  className="add_library">
                         <span className="fa fa-plus"></span>
                     </a>
                 </div>
@@ -53,7 +53,7 @@ const sideBarNav = () => {
                 </section>
 
                 <div className="cookies">
-                    <a href="">Cookies</a>
+                    <a >Cookies</a>
                 </div>
         
                 <div className="languages">
@@ -65,7 +65,7 @@ const sideBarNav = () => {
 
             </div>
         </div>
-    );
+    )
 };
 
 export default sideBarNav;
