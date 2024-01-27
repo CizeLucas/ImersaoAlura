@@ -1,2 +1,1 @@
-# ImersaoAlura
-Códigos da Imersão HTML, CSS e JS promovido pela Alura
+# Spotify Interface clonned with React Framework
