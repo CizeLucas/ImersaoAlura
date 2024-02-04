@@ -22,8 +22,10 @@ async function getArtistData(apiURL, artistID, sessionAcessToken){
     return response.json()
 }
 
-const clientID = "acc0478f790144b8bc47d99cf517a072"; //your_cliend_ID
-const clientSecret = "868c00e7abf14b41b28834402f860221"; //your_client_secret
+const clientID = "..."; //your_cliend_ID
+const clientSecret = "..."; //your_client_secret
+//You have to create a new app in https://developer.spotify.com/dashboard and input the 
+//client ID and secret keys above
 
 const artistID_EDEN = "1t20wYnTiAT0Bs7H1hv9Wt";
 
@@ -57,30 +59,6 @@ try{
 } catch(err){
     console.log(`ERROR! ${err}`)
 }
-
-/*
-fetch(tokenEndpoint, {
-    method: 'POST',
-    headers: headerContent,
-    body: httpReqBody
-})
-    .then(response => response.json())
-    .then(data => {
-        console.log('Response data: ', data); //prints the whole response data
-
-        accessToken = data.access_token; //separates the access_token field from the rest of the response
-        if (accessToken) {
-            console.log('Access Token:', accessToken);
-        } else {
-            console.error('Access token not found in the response:', data);
-        }
-    })
-    .catch(error => {
-        console.error('Error: ', error);
-    })
-
-    console.log(accessToken)
-*/
 
 if(!accessToken!=null){
     try{

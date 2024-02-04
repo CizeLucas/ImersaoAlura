@@ -1,3 +1,7 @@
+/*code from Imersao Alura that reads the JSON served at localhost:3000 preferably by 
+json-server version 0.17.4 (install command: npm i json-server@0.17.4)
+*/
+
 const resultPlaylist = document.getElementById("result-playlists");
 const resultArtists = document.getElementById("result-artist");
 const searchInput = document.getElementById("search-input");
